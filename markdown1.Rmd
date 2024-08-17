@@ -1,0 +1,33 @@
+---
+title: "markdown1"
+author: "Uzay"
+output: html_document
+date: "2024-08-17" 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a testing R markdown. *italic* and **bold** or ***both***
+
+![](https://media.tenor.com/dFsURp-wUdgAAAAM/sans-dance.gif) 
+```{r}
+#Only commented lines will be ignored
+print(2+2)
+```
+```{r, eval=FALSE}
+#this will be not executed
+print(2+3)
+```
+
+##Figures
+```{r}
+plot(cars)
+```
+
+```{r}
+plot(pressure)
+```
+
+# Science is great but coding is greater.
